@@ -1,4 +1,4 @@
 Pages
 =====
 
-vertaling van de officiële phpBB extensie Pages
+Vertaling van de officiële phpBB extensie Pages.
