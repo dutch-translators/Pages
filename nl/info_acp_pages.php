@@ -34,25 +34,16 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 //
 // Some characters you may want to copy&paste:
-// ’ » “ ” …
+// ‘ » “ ” …
 //
 
-/*
-* These are errors which can be triggered by sending invalid data to the
-* pages extension API.
-*
-* These errors will never show to a user unless they are either modifying
-* the core pages extension code OR unless they are writing an extension
-* which makes calls to this extension.
-*
-* Translators: Feel free to not translate these language strings
-*/
 $lang = array_merge($lang, array(
-	'EXCEPTION_FIELD_MISSING'		=> 'Vereist veld mist',
-	'EXCEPTION_INVALID_ARGUMENT'	=> 'Ongeldig argument gespecificeerd voor `%1$s`. Reden: %2$s',
-	'EXCEPTION_OUT_OF_BOUNDS'		=> 'Het veld `%1$s` ontvangt data dat buiten zijn bereik ligt',
-	'EXCEPTION_TOO_LONG'			=> 'De invoer is langer dan de maximum lengte.',
-	'EXCEPTION_NOT_UNIQUE'			=> 'De invoer is niet uniek.',
-	'EXCEPTION_UNEXPECTED_VALUE'	=> 'Het veld `%1$s` ontvangt onverwachte data. Reden: %2$s',
-	'EXCEPTION_ILLEGAL_CHARACTERS'	=> 'De invoer bevat illegale tekens.',
+	// ACP modules
+	'ACP_PAGES'				=> 'Pagina‘s',
+	'ACP_PAGES_MANAGE'		=> 'Beheer Pagina‘s',
+
+	// Logs
+	'ACP_PAGES_ADDED_LOG'	=> '<strong>Pagina toegevoegd</strong><br />» %s',
+	'ACP_PAGES_EDITED_LOG'	=> '<strong>Pagina gewijzigd</strong><br />» %s',
+	'ACP_PAGES_DELETED_LOG'	=> '<strong>Pagina verwijderd</strong><br />» %s',
 ));
