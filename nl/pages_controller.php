@@ -2,7 +2,7 @@
 /**
 *
 * Pages extension for the phpBB Forum Software package.
-*
+* [Dutch] translated by Dutch Translators (https://github.com/dutch-translators)
 * @copyright (c) 2014 phpBB Limited <https://www.phpbb.com>
 * @license GNU General Public License, version 2 (GPL-2.0)
 *
@@ -38,5 +38,5 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'PAGE_NOT_AVAILABLE'		=> 'The requested page “%s” is not available.',
+	'PAGE_NOT_AVAILABLE'		=> 'De opgevraagde pagina “%s” is niet beschikbaar.',
 ));
